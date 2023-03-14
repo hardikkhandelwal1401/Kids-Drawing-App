@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kidsdrawingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.kidsdrawingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.kidsdrawingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:7:5-38:19
+21        android:allowBackup="true"
+21-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:12:9-41
+29        android:supportsRtl="true"
+29-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.KidsDrawingApp" >
+31-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:14:9-52
+32        <activity
+32-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:16:9-25:20
+33            android:name="com.example.kidsdrawingapp.MainActivity"
+33-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:17:13-41
+34            android:exported="true"
+34-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:18:13-36
+35            android:screenOrientation="portrait" >
+35-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:19:13-49
+36            <intent-filter>
+36-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:20:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:21:17-69
+37-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:23:17-77
+39-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:27:9-37:20
+44            android:name="androidx.core.content.FileProvider"
+44-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:29:13-62
+45            android:authorities="com.example.kidsdrawingapp.fileprovider"
+45-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:28:13-74
+46            android:exported="false"
+46-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:30:13-37
+47            android:grantUriPermissions="true" >
+47-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:31:13-47
+48            <meta-data
+48-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:33:13-35:47
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:34:17-67
+50                android:resource="@xml/path" />
+50-->/Users/hardikkhandelwal/AndroidStudioProjects/KidsDrawingApp2/app/src/main/AndroidManifest.xml:35:17-45
+51        </provider>
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.kidsdrawingapp.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

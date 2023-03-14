@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ll_paint" type="id" />
+    <item name="fl_drawing_view" type="id" />
+    <item name="fl_drawing_view_container" type="id" />
+    <item name="iv_background" type="id" />
+    <item name="ll_action_buttons" type="id" />
+</resources>
